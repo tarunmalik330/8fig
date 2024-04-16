@@ -201,6 +201,7 @@ export const MonthlyRevenue = () => {
 export const FacebookSvg = () => {
   return (
     <svg
+      className="hover:scale-110 transition-all ease-linear duration-500"
       width="15"
       height="28"
       viewBox="0 0 15 28"
@@ -217,6 +218,7 @@ export const FacebookSvg = () => {
 export const InstagramSvg = () => {
   return (
     <svg
+      className="hover:scale-110 transition-all ease-linear duration-500"
       width="28"
       height="28"
       viewBox="0 0 28 28"
@@ -233,6 +235,7 @@ export const InstagramSvg = () => {
 export const LinkedInSvg = () => {
   return (
     <svg
+      className="hover:scale-110 transition-all ease-linear duration-500"
       width="32"
       height="30"
       viewBox="0 0 32 30"
@@ -257,6 +260,7 @@ export const LinkedInSvg = () => {
 export const TwitterSvg = () => {
   return (
     <svg
+      className="hover:scale-110 transition-all ease-linear duration-500"
       width="31"
       height="24"
       viewBox="0 0 31 24"

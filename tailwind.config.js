@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         "lightgrey": "#76767F",
         "lightblack": "#0E1122",
+        "purple": "#4C57FF"
       },
       fontSize: {
         "2sm": "12px",

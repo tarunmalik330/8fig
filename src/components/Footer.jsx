@@ -34,12 +34,7 @@ const Footer = () => {
                 {footerlink.map((a, link) => {
                   return (
                     <div key={link}>
-                      <a
-                        href={a.link}
-                        className="hover:scale-110 transition-all ease-linear duration-500"
-                      >
-                        {a.footersvg}
-                      </a>
+                      <a href={a.link}>{a.footersvg}</a>
                     </div>
                   );
                 })}

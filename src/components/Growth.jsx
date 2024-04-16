@@ -19,14 +19,14 @@ const Growth = () => {
               </p>
             </div>
             <div className="lg:w-3/12 sm:w-6/12 w-full sm:pt-0 pt-6 flex flex-col justify-center items-center">
-              <p className="text-9sm font-normal text-white leading-5lg mb-[10px]">
+              <p className="sm:text-9sm text-6sm font-normal text-white leading-5lg mb-[10px]">
                 Average store growth
               </p>
               <p className="sm:text-xl text-5lg  ff_abril font-semibold text-white leading-6sm">
                 400%
               </p>
             </div>
-            <div className="lg:w-3/12 sm:w-6/12 w-full sm:pt-0 pt-6 flex justify-center flex-col items-center">
+            <div className="lg:w-3/12 sm:w-6/12 w-full lg:pt-0 pt-6 flex justify-center flex-col items-center">
               <img
                 src={trustpilot}
                 alt="trustpilot"
@@ -36,8 +36,8 @@ const Growth = () => {
                 Excellent
               </p>
             </div>
-            <div className="lg:w-3/12 sm:w-6/12 w-full sm:pt-0 pt-6 flex flex-col justify-center items-center">
-              <p className="text-9sm font-normal text-white leading-5lg mb-[10px]">
+            <div className="lg:w-3/12 sm:w-6/12 w-full lg:pt-0 pt-6 flex flex-col justify-center items-center">
+              <p className="sm:text-9sm text-6sm font-normal text-white leading-5lg mb-[10px]">
                 Funding given
               </p>
               <p className="sm:text-xl text-5lg  ff_abril font-semibold text-white leading-6sm">

@@ -12,7 +12,7 @@ const Seller = () => {
                 <span className="lg:block"> Become an 8 figure </span>seller
                 with AI funding
               </h2>
-              <button className="py-[10px] px-[44px] font-medium text-6sm text-white bg-purple rounded-4xs">
+              <button className="sm:py-[10px] py-2 sm:px-[44px] px-[34px] font-medium text-6sm text-white bg-purple rounded-4xs hover:border-[#4C57FF] hover:border hover:border-solid border-transparent border hover:text-purple hover:bg-white transition-colors ease-linear duration-500">
                 Apply now
               </button>
             </div>

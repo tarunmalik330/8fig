@@ -57,12 +57,12 @@ const Faq = () => {
               <AccordionHeader
                 className={`${
                   open === 1 ? "" : ""
-                } focus-visible:outline-none border-0 font-medium sm:text-8sm text-6sm text-lightblack`}
+                } focus-visible:outline-none border-0 font-medium sm:text-8sm text-4sm text-lightblack`}
                 onClick={() => handleOpen(1)}
               >
                 Who is eligible for a Growth Plan?
               </AccordionHeader>
-              <AccordionBody className="py-2 text-4sm leading-6sm font-normal text-lightblack opacity-70">
+              <AccordionBody className="py-2 sm:text-4sm text-2sm leading-6sm font-normal text-lightblack opacity-70 pr-8">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestias asperiores libero officia nemo qui? Id natus ratione
                 quasi laboriosam atque veniam assumenda vel nemo. Suscipit omnis
@@ -79,12 +79,12 @@ const Faq = () => {
               <AccordionHeader
                 className={`${
                   open === 2 ? "" : ""
-                } focus-visible:outline-none border-0 font-medium sm:text-8sm text-6sm text-lightblack`}
+                } focus-visible:outline-none border-0 font-medium sm:text-8sm text-4sm text-lightblack`}
                 onClick={() => handleOpen(2)}
               >
                 How much funding can I qualify for?
               </AccordionHeader>
-              <AccordionBody className="py-2 text-4sm leading-6sm font-normal text-lightblack opacity-70">
+              <AccordionBody className="py-2 sm:text-4sm text-2sm leading-6sm font-normal text-lightblack opacity-70 pr-8">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestias asperiores libero officia nemo qui? Id natus ratione
                 quasi laboriosam atque veniam assumenda vel nemo. Suscipit omnis
@@ -101,12 +101,12 @@ const Faq = () => {
               <AccordionHeader
                 className={`${
                   open === 3 ? "" : ""
-                } focus-visible:outline-none border-0 font-medium sm:text-8sm text-6sm text-lightblack`}
+                } focus-visible:outline-none border-0 font-medium sm:text-8sm text-4sm text-lightblack`}
                 onClick={() => handleOpen(3)}
               >
                 What is the cost of the Growth Plan?
               </AccordionHeader>
-              <AccordionBody className="py-2 text-4sm leading-6sm font-normal text-lightblack opacity-70">
+              <AccordionBody className="py-2 sm:text-4sm text-2sm leading-6sm font-normal text-lightblack opacity-70 pr-8">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestias asperiores libero officia nemo qui? Id natus ratione
                 quasi laboriosam atque veniam assumenda vel nemo. Suscipit omnis
@@ -123,12 +123,12 @@ const Faq = () => {
               <AccordionHeader
                 className={`${
                   open === 4 ? "" : ""
-                } focus-visible:outline-none border-0 font-medium sm:text-8sm text-6sm text-lightblack`}
+                } focus-visible:outline-none border-0 font-medium sm:text-8sm text-4sm text-lightblack`}
                 onClick={() => handleOpen(4)}
               >
                 Does 8fig charge money for its services?
               </AccordionHeader>
-              <AccordionBody className="py-2 text-4sm leading-6sm font-normal text-lightblack opacity-70">
+              <AccordionBody className="py-2 sm:text-4sm text-2sm leading-6sm font-normal text-lightblack opacity-70 pr-8">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestias asperiores libero officia nemo qui? Id natus ratione
                 quasi laboriosam atque veniam assumenda vel nemo. Suscipit omnis

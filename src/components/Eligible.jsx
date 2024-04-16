@@ -12,7 +12,7 @@ const Eligible = () => {
           <h2 className="ff_abril text-lightblack font-semibold lg:text-9md text-4md text-center lg:max-w-[438px] leading-6lg mx-auto my-[20px]">
             Who’s eligible for getting our AI funding?
           </h2>
-          <button className="font-medium text-white text-2sm py-[6px] px-[20px] rounded-4xs bg-purple leading-xl flex justify-center items-center mx-auto">
+          <button className="font-medium text-white text-2sm py-[6px] px-[20px] rounded-4xs bg-purple leading-xl flex justify-center items-center mx-auto hover:border-[#4C57FF] hover:border hover:border-solid border-transparent border hover:text-purple hover:bg-white transition-colors ease-linear duration-500">
             Apply now
           </button>
           <div className="flex flex-row flex-wrap">
