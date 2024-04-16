@@ -20,9 +20,11 @@ const Eligible = () => {
               return (
                 <div
                   key={index}
-                  className="lg:w-3/12 sm:w-6/12 w-full lg:pt-[65px] sm:pt-[50px] pt-[32px]"
+                  className="xl:w-3/12 sm:w-6/12 w-full lg:pt-[65px] sm:pt-[50px] pt-[32px]"
                 >
-                  <div className="py-10 px-[22px] group lg:max-w-[299px] h-full w-full hover:shadow-[0px_-5px_10px_0px_rgba(0,0,0,0.2)] transition-all ease-linear duration-500 rounded-3sm">
+                  <div
+                    className={`${e.cardwidth} py-10 px-[22px] group h-full hover:shadow-[0px_-5px_10px_0px_rgba(0,0,0,0.2)] transition-all ease-linear duration-500 rounded-3sm`}
+                  >
                     {e.svg}
                     <p className="my-4 tracking-8spacing leading-3lg text-lightblack font-semibold text-6sm">
                       {e.heading}

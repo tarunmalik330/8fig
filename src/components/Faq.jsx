@@ -40,24 +40,24 @@ const Faq = () => {
     <>
       <div className="bg-bggrey sm:pt-[70px] sm:pb-[60px] py-[40px]">
         <div className="container mx-auto xl:max-w-[1264px] px-3">
-          <p className="text-lightgrey text-4sm font-medium tracking-8spacing text-center uppercase pb-[20px]">
+          <p className="text-lightgrey text-4sm font-medium tracking-8spacing text-center uppercase leading-5lg mb-[20px]">
             still have questions?
           </p>
           <h2 className="ff_abril text-lightblack font-semibold lg:text-9md text-4md text-center lg:max-w-[438px] leading-6lg mx-auto mb-6">
             Learn more with FAQ
           </h2>
-          <div className="pt-[60px]">
+          <div className="lg:pt-[60px] sm:pt-[30px] pt-5">
             <Accordion
               className={`${
                 open.id === 1 ? "border-0" : ""
-              } cursor-pointer pb-[18px] sm:px-4 px-3 border-b border-solid border-[#DDDDDF]`}
+              } cursor-pointer py-[18px] sm:px-4 px-3 border-b border-solid border-[#DDDDDF]`}
               open={open === 1}
               icon={<Icon id={1} open={open} />}
             >
               <AccordionHeader
                 className={`${
                   open === 1 ? "" : ""
-                } focus-visible:outline-none border-0 font-medium sm:text-8sm text-4sm text-lightblack`}
+                } focus-visible:outline-none border-0 font-medium sm:text-8sm text-start text-4sm text-lightblack`}
                 onClick={() => handleOpen(1)}
               >
                 Who is eligible for a Growth Plan?
@@ -79,7 +79,7 @@ const Faq = () => {
               <AccordionHeader
                 className={`${
                   open === 2 ? "" : ""
-                } focus-visible:outline-none border-0 font-medium sm:text-8sm text-4sm text-lightblack`}
+                } focus-visible:outline-none border-0 font-medium text-start sm:text-8sm text-4sm text-lightblack`}
                 onClick={() => handleOpen(2)}
               >
                 How much funding can I qualify for?
@@ -101,7 +101,7 @@ const Faq = () => {
               <AccordionHeader
                 className={`${
                   open === 3 ? "" : ""
-                } focus-visible:outline-none border-0 font-medium sm:text-8sm text-4sm text-lightblack`}
+                } focus-visible:outline-none border-0 text-start font-medium sm:text-8sm text-4sm text-lightblack`}
                 onClick={() => handleOpen(3)}
               >
                 What is the cost of the Growth Plan?
@@ -123,7 +123,7 @@ const Faq = () => {
               <AccordionHeader
                 className={`${
                   open === 4 ? "" : ""
-                } focus-visible:outline-none border-0 font-medium sm:text-8sm text-4sm text-lightblack`}
+                } focus-visible:outline-none border-0 text-start font-medium sm:text-8sm text-4sm text-lightblack`}
                 onClick={() => handleOpen(4)}
               >
                 Does 8fig charge money for its services?

@@ -22,7 +22,7 @@ const Growth = () => {
               <p className="sm:text-9sm text-6sm font-normal text-white leading-5lg mb-[10px]">
                 Average store growth
               </p>
-              <p className="sm:text-xl text-5lg  ff_abril font-semibold text-white leading-6sm">
+              <p className="sm:text-xl text-5lg ff_abril font-semibold text-white leading-3lg">
                 400%
               </p>
             </div>
