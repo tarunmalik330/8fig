@@ -46,7 +46,7 @@ const Faq = () => {
           <h2 className="ff_abril text-lightblack font-semibold lg:text-9md text-4md text-center lg:max-w-[438px] leading-6lg mx-auto mb-6">
             Learn more with FAQ
           </h2>
-          <div>
+          <div className="pt-[60px]">
             <Accordion
               className={`${
                 open.id === 1 ? "border-0" : ""

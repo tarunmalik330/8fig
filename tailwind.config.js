@@ -25,7 +25,7 @@ module.exports = {
         "3lg": "138%",
         "6lg": "116%",
         "5lg": "158%",
-        "xl": "166%",
+        "xl": "150%",
       },
       borderRadius: {
         "4xs": "24px",
