@@ -15,12 +15,12 @@ const Eligible = () => {
           <button className="font-medium text-white text-2sm py-[6px] px-[20px] rounded-4xs bg-purple leading-xl flex justify-center items-center mx-auto hover:border-[#4C57FF] hover:border hover:border-solid border-transparent border hover:text-purple hover:bg-white transition-colors ease-linear duration-500">
             Apply now
           </button>
-          <div className="flex flex-row flex-wrap">
+          <div className="flex flex-row flex-wrap justify-between">
             {carddata.map((e, index) => {
               return (
                 <div
                   key={index}
-                  className="xl:w-3/12 sm:w-6/12 w-full lg:pt-[65px] sm:pt-[50px] pt-[32px]"
+                  className="xl:w-[22%] sm:w-6/12 w-full lg:pt-[65px] sm:pt-[50px] pt-[32px]"
                 >
                   <div
                     className={`${e.cardwidth} py-10 px-[22px] group h-full hover:shadow-[0px_-5px_10px_0px_rgba(0,0,0,0.2)] transition-all ease-linear duration-500 rounded-3sm`}

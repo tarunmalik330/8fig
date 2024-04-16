@@ -5,7 +5,7 @@ import trustpilot from "../assets/images/webp/trustpilotimg.webp";
 const Growth = () => {
   return (
     <>
-      <div className="bg-bgblack lg:py-[87.63px] sm:py-[60px] py-[40px]">
+      <div className="bg-bgblack lg:pt-[87.63px] lg:pb-[89.63px] sm:py-[60px] py-[40px]">
         <div className="container mx-auto xl:maw-w-[1191px] px-3">
           <div className="flex flex-wrap flex-row">
             <div className="lg:w-3/12 sm:w-6/12 w-full flex justify-center flex-col items-center">
