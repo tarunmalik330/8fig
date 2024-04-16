@@ -6,7 +6,7 @@ const Eligible = () => {
     <>
       <div className="bg-white sm:py-[60px] py-[40px]">
         <div className="container mx-auto xl:max-w-[1253px] px-3">
-          <p className="uppercase font-semibold text-2sm text-lightgrey leading-6lg text-center ">
+          <p className="uppercase font-semibold text-4sm text-lightgrey leading-6lg text-center ">
             make the cut
           </p>
           <h2 className="ff_abril text-lightblack font-semibold lg:text-9md text-4md text-center lg:max-w-[438px] leading-6lg mx-auto my-[20px]">

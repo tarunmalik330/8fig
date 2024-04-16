@@ -50,7 +50,7 @@ const Faq = () => {
             <Accordion
               className={`${
                 open.id === 1 ? "border-0" : ""
-              } cursor-pointer pb-[20px] sm:px-4 px-3 border-b border-solid border-[#DDDDDF]`}
+              } cursor-pointer pb-[18px] sm:px-4 px-3 border-b border-solid border-[#DDDDDF]`}
               open={open === 1}
               icon={<Icon id={1} open={open} />}
             >
@@ -72,7 +72,7 @@ const Faq = () => {
             <Accordion
               className={`${
                 open.id === 2 ? "border-0" : ""
-              }cursor-pointer py-[20px] sm:px-4 px-3 border-b border-solid border-[#DDDDDF]`}
+              }cursor-pointer py-[18px] sm:px-4 px-3 border-b border-solid border-[#DDDDDF]`}
               open={open === 2}
               icon={<Icon id={2} open={open} />}
             >
@@ -94,7 +94,7 @@ const Faq = () => {
             <Accordion
               className={`${
                 open.id === 3 ? "border-0" : ""
-              }cursor-pointer py-[20px] sm:px-4 px-3 border-b border-solid border-[#DDDDDF]`}
+              }cursor-pointer py-[18px] sm:px-4 px-3 border-b border-solid border-[#DDDDDF]`}
               open={open === 3}
               icon={<Icon id={3} open={open} />}
             >
@@ -116,7 +116,7 @@ const Faq = () => {
             <Accordion
               className={`${
                 open.id === 4 ? "border-0" : ""
-              }cursor-pointer py-[20px] sm:px-4 px-3 border-b border-solid border-[#DDDDDF]`}
+              }cursor-pointer py-[18px] sm:px-4 px-3 border-b border-solid border-[#DDDDDF]`}
               open={open === 4}
               icon={<Icon id={4} open={open} />}
             >
