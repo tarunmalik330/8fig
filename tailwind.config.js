@@ -32,6 +32,7 @@ module.exports = {
         "md": "40px",
       },
       backgroundColor: {
+        "bggrey": "#EFECE6",
         "purple": "#4C57FF",
         "bgblack": "#0E1122",
       },

@@ -8,7 +8,7 @@ const Seller = () => {
         <div className="container mx-auto xl:max-w-[1190px] px-3">
           <div className="flex flex-row flex-wrap items-center sm:justify-between justify-center">
             <div className="sm:w-5/12 w-full max-sm:flex flex-col max-sm:justify-center max-sm:items-center">
-              <h2 className="ff_abril text-lightblack font-semibold lg:text-9md text-4md leading-6lg mx-auto mb-[20px]">
+              <h2 className="ff_abril text-lightblack max-sm:text-center font-semibold lg:text-9md text-4md leading-6lg mx-auto mb-[20px]">
                 <span className="lg:block"> Become an 8 figure </span>seller
                 with AI funding
               </h2>

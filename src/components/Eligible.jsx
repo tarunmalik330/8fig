@@ -4,7 +4,7 @@ import { carddata } from "./common/Mapdata";
 const Eligible = () => {
   return (
     <>
-      <div className="bg-white py-[60px]">
+      <div className="bg-white sm:py-[60px] py-[40px]">
         <div className="container mx-auto xl:max-w-[1253px] px-3">
           <p className="uppercase font-semibold text-2sm text-lightgrey leading-6lg text-center ">
             make the cut
