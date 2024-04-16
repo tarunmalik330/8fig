@@ -18,16 +18,16 @@ function Icon({ id, open }) {
           className={`${open === id ? "hidden" : ""}`}
           d="M10 4V16"
           stroke="#0E1122"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M4 10H16"
           stroke="#0E1122"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
     </>
