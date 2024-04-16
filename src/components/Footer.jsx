@@ -1,5 +1,5 @@
 import React from "react";
-import pagelogo from "../assets/images/png/pagelogo.png";
+import pagelogo from "../assets/images/webp/pagelogo.webp";
 import { footerlink } from "./common/Mapdata";
 
 const Footer = () => {

@@ -1,6 +1,6 @@
 import React from "react";
-import businessimg from "../assets/images/png/businessimg.png";
-import trustpilot from "../assets/images/png/trustpilotimg.png";
+import businessimg from "../assets/images/webp/businessimg.webp";
+import trustpilot from "../assets/images/webp/trustpilotimg.webp";
 
 const Growth = () => {
   return (
