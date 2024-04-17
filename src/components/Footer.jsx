@@ -27,7 +27,7 @@ const Footer = () => {
             <div className="flex flex-row flex-wrap justify-between items-center max-lg:flex-col-reverse">
               <div className="lg:w-5/12 w-full pt-8 lg:pt-0">
                 <p className="lg:text-center text-lightgrey leading-5lg tracking-8spacing font-medium text-4sm">
-                  © 2024 8fig - All Rights Reserved
+                  © {new Date().getFullYear()} 8fig - All Rights Reserved
                 </p>
               </div>
               <div className="lg:w-3/12 w-full flex gap-[36px] items-baseline lg:justify-end pt-8 lg:pt-0">
