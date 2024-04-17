@@ -201,9 +201,7 @@ export const MonthlyRevenue = () => {
 export const FacebookSvg = () => {
   return (
     <svg
-      className="hover:scale-110 transition-all ease-linear duration-500"
-      width="15"
-      height="28"
+      className="hover:scale-110 transition-all ease-linear duration-300 sm:w-[15px] w-[12px] sm:h-[28px] h-[25px]"
       viewBox="0 0 15 28"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -218,9 +216,7 @@ export const FacebookSvg = () => {
 export const InstagramSvg = () => {
   return (
     <svg
-      className="hover:scale-110 transition-all ease-linear duration-500"
-      width="28"
-      height="28"
+      className="hover:scale-110 transition-all ease-linear duration-300 sm:w-[28px] w-[25px] sm:h-[28px] h-[25px]"
       viewBox="0 0 28 28"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -235,9 +231,7 @@ export const InstagramSvg = () => {
 export const LinkedInSvg = () => {
   return (
     <svg
-      className="hover:scale-110 transition-all ease-linear duration-500"
-      width="32"
-      height="30"
+      className="hover:scale-110 transition-all ease-linear duration-300 sm:w-[32px] w-[29px] sm:h-[20px] h-[27px]"
       viewBox="0 0 32 30"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -260,7 +254,7 @@ export const LinkedInSvg = () => {
 export const TwitterSvg = () => {
   return (
     <svg
-      className="hover:scale-110 transition-all ease-linear duration-500"
+      className="hover:scale-110 transition-all ease-linear duration-300 sm:w-[31px] w-[28px] sm:h-[24px] h-[21px]"
       width="31"
       height="24"
       viewBox="0 0 31 24"

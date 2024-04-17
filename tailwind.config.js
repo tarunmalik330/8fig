@@ -15,6 +15,7 @@ module.exports = {
         "8sm": "18px",
         "9sm": "19px",
         "4md": "24.42px",
+        "5md": "35px",
         "9md": "39.42px",
         "5lg": "45px",
         "xl": "50px"

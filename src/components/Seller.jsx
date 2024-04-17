@@ -12,16 +12,16 @@ const Seller = () => {
                 <span className="lg:block"> Become an 8 figure </span>seller
                 with AI funding
               </h2>
-              <button className="sm:py-[10px] py-2 sm:px-[44px] px-[34px] font-medium text-6sm text-white bg-purple rounded-4xs hover:border-[#4C57FF] hover:border hover:border-solid border-transparent border hover:text-purple hover:bg-white transition-colors ease-linear duration-500">
+              <button className="sm:py-[10px] py-2 sm:px-[44px] px-[34px] font-medium text-6sm text-white bg-purple rounded-4xs hover:border-[#4C57FF] hover:border hover:border-solid border-transparent border hover:text-purple hover:bg-white transition-colors ease-linear duration-300">
                 Apply now
               </button>
             </div>
             <div className="sm:w-5/12 w-full sm:pt-0 pt-7 flex sm:justify-end">
-              <div className=" overflow-hidden rounded-md">
+              <div className="overflow-hidden lg:rounded-md sm:rounded-3sm rounded-4xs">
                 <img
                   src={sellerimg}
                   alt="sellerimg"
-                  className="w-full sm:max-w-[440px] rounded-md hover:scale-[1.02] transition-all ease-linear duration-500
+                  className="w-full sm:max-w-[440px] lg:rounded-md sm:rounded-3sm rounded-4xs hover:scale-[1.02] transition-all ease-linear duration-500
               "
                 />
               </div>

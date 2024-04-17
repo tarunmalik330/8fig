@@ -25,12 +25,12 @@ const Footer = () => {
           </div>
           <div className="lg:w-7/12 w-full">
             <div className="flex flex-row flex-wrap justify-between items-center max-lg:flex-col-reverse">
-              <div className="lg:w-5/12 w-full pt-8 lg:pt-0">
+              <div className="lg:w-5/12 w-full sm:pt-8 pt-4 lg:pt-0">
                 <p className="lg:text-center text-lightgrey leading-5lg tracking-8spacing font-medium text-4sm">
                   © {new Date().getFullYear()} 8fig - All Rights Reserved
                 </p>
               </div>
-              <div className="lg:w-3/12 w-full flex gap-[36px] items-baseline lg:justify-end pt-8 lg:pt-0">
+              <div className="lg:w-3/12 w-full flex gap-[36px] items-baseline lg:justify-end sm:pt-8 pt-4 lg:pt-0">
                 {footerlink.map((a, link) => {
                   return (
                     <div key={link}>
