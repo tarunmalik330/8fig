@@ -16,7 +16,7 @@ const Footer = () => {
                   className="w-full max-w-[69.36px]"
                 />
               </a>
-              <p className="text-lightgrey text-4sm font-medium tracking-8spacing">
+              <p className="text-lightgrey text-sm font-medium tracking-8spacing">
                 {" "}
                 <span className="lg:block">8fig, 1717 W 6th St,</span> Austin,
                 Texas
@@ -26,7 +26,7 @@ const Footer = () => {
           <div className="lg:w-7/12 w-full">
             <div className="flex flex-row flex-wrap justify-between items-center max-lg:flex-col-reverse">
               <div className="lg:w-5/12 w-full sm:pt-8 pt-4 lg:pt-0">
-                <p className="lg:text-center text-lightgrey leading-5lg tracking-8spacing font-medium text-4sm">
+                <p className="lg:text-center text-lightgrey leading-leadingxl tracking-8spacing font-medium text-base">
                   © {new Date().getFullYear()} 8fig - All Rights Reserved
                 </p>
               </div>

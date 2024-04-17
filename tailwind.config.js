@@ -9,28 +9,24 @@ module.exports = {
         "purple": "#4C57FF"
       },
       fontSize: {
-        "2sm": "12px",
-        "4sm": "14px",
-        "6sm": "16px",
-        "8sm": "18px",
-        "9sm": "19px",
-        "4md": "24.42px",
-        "5md": "35px",
-        "9md": "39.42px",
-        "5lg": "45px",
-        "xl": "50px"
+        "textxs": "19px",
+        "textsm": "24.42px",
+        "textmd": "35px",
+        "textlg": "39.42px",
+        "textxl": "45px",
+        "textxxl": "50px"
       },
       lineHeight: {
-        "4sm": "24px",
-        "6sm": "136%",
-        "3lg": "138%",
-        "6lg": "116%",
-        "5lg": "158%",
-        "xl": "150%",
+        "leadingxs": "24px",
+        "leadingsm": "136%",
+        "leadingmd": "138%",
+        "leadinglg": "116%",
+        "leadingxl": "158%",
+        "leadingxxl": "150%",
       },
       borderRadius: {
-        "4xs": "24px",
-        "3sm": "30px",
+        "radiusxs": "24px",
+        "radiussm": "30px",
         "md": "40px",
       },
       backgroundColor: {

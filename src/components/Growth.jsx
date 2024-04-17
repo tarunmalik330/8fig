@@ -14,15 +14,15 @@ const Growth = () => {
                 alt="businessimg"
                 className="w-full max-w-[83.5px] mb-[10px]"
               />
-              <p className="capitalize font-semibold text-white ff_abril lg:text-xl md:text-5lg sm:text-9md text-5md  leading-6sm">
+              <p className="capitalize font-semibold text-white ff_abril lg:text-textxxl md:text-textxl sm:text-textlg text-textmd  leading-leadingsm">
                 ‘A’ Rating{" "}
               </p>
             </div>
             <div className="lg:w-3/12 sm:w-6/12 w-full sm:pt-0 pt-4 flex flex-col justify-center items-center">
-              <p className="sm:text-9sm text-6sm font-normal text-white leading-5lg mb-[10px]">
+              <p className="sm:text-textxs text font-normal text-white leading-leadingxl mb-[10px]">
                 Average store growth
               </p>
-              <p className="lg:text-xl md:text-5lg sm:text-9md text-5md ff_abril font-semibold text-white leading-3lg">
+              <p className="lg:text-textxxl md:text-textxl sm:text-textlg text-textmd ff_abril font-semibold text-white leading-leadingmd">
                 400%
               </p>
             </div>
@@ -32,15 +32,15 @@ const Growth = () => {
                 alt="trustpilot"
                 className="w-full max-w-[140px] mb-[10px]"
               />
-              <p className="capitalize font-semibold text-white ff_abril lg:text-xl md:text-5lg sm:text-9md text-5md  leading-6sm">
+              <p className="capitalize font-semibold text-white ff_abril lg:text-textxxl md:text-textxl sm:text-textlg text-textmd  leading-leadingsm">
                 Excellent
               </p>
             </div>
             <div className="lg:w-3/12 sm:w-6/12 w-full lg:pt-0 pt-4 flex flex-col justify-center items-center">
-              <p className="sm:text-9sm text-6sm font-normal text-white leading-5lg mb-[10px]">
+              <p className="sm:text-textxs text-base font-normal text-white leading-leadingxl mb-[10px]">
                 Funding given
               </p>
-              <p className="lg:text-xl md:text-5lg sm:text-9md text-5md  ff_abril font-semibold text-white leading-6sm">
+              <p className="lg:text-textxxl md:text-textxl sm:text-textlg text-textmd ff_abril font-semibold text-white leading-leadingsm">
                 $450M+
               </p>
             </div>
