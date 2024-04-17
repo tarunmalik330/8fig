@@ -9,7 +9,7 @@ const Eligible = () => {
           <p className="uppercase font-medium text-4sm text-lightgrey leading-5lg text-center ">
             make the cut
           </p>
-          <h2 className="ff_abril text-lightblack font-semibold lg:text-9md text-4md text-center lg:max-w-[438px] leading-6lg mx-auto my-[20px]">
+          <h2 className="ff_abril text-lightblack font-semibold lg:text-9md text-4md text-center lg:max-w-[438px] leading-6lg mx-auto sm:my-[20px] py-[16px]">
             Who’s eligible for getting our AI funding?
           </h2>
           <button className="font-medium text-white text-2sm py-[6px] px-[20px] rounded-4xs bg-purple leading-xl flex justify-center items-center mx-auto hover:border-[#4C57FF] hover:border hover:border-solid border-transparent border hover:text-purple hover:bg-white transition-colors ease-linear duration-300">
