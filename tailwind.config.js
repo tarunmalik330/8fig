@@ -35,7 +35,7 @@ module.exports = {
         "bgblack": "#0E1122",
       },
       letterSpacing: {
-        "8spacing": "0.08em"
+        "spacing": "0.08em"
       }
 
     },

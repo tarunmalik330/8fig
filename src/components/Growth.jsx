@@ -1,4 +1,4 @@
-import React from "react";
+
 import businessimg from "../assets/images/webp/businessimg.webp";
 import trustpilot from "../assets/images/webp/trustpilotimg.webp";
 

@@ -1,4 +1,3 @@
-import React from "react";
 import { carddata } from "./common/Mapdata";
 
 const Eligible = () => {
@@ -26,7 +25,7 @@ const Eligible = () => {
                     className={`${e.cardwidth} lg:py-10 sm:py-8 py-4 px-[22px] group h-full hover:shadow-[0px_-5px_10px_0px_rgba(0,0,0,0.2)] transition-all ease-linear duration-500 rounded-radiussm`}
                   >
                     {e.svg}
-                    <p className="sm:my-4 my-3 tracking-8spacing leading-leadingmd text-lightblack font-semibold text-base">
+                    <p className="sm:my-4 my-3 tracking-spacing leading-leadingmd text-lightblack font-semibold text-base">
                       {e.heading}
                     </p>
                     <p

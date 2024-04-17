@@ -1,4 +1,4 @@
-import React from "react";
+
 import sellerimg from "../assets/images/webp/sellerimg.webp";
 
 const Seller = () => {
