@@ -29,7 +29,7 @@ const Eligible = () => {
                       {e.heading}
                     </p>
                     <p
-                      className={`${e.textwidth} sm:text-xs text-sm text-lightblack font-normal leading-leadingxs`}
+                      className={`${e.textwidth} sm:text-lg text-sm text-lightblack font-normal leading-leadingxs`}
                     >
                       {e.paragraph}
                     </p>
