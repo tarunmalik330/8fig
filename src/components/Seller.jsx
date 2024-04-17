@@ -4,7 +4,7 @@ import sellerimg from "../assets/images/webp/sellerimg.webp";
 const Seller = () => {
   return (
     <>
-      <div className="bg-white pt-[47px] pb-12">
+      <div className="bg-white sm:pt-[47px] sm:pb-12 py-[40px]">
         <div className="container mx-auto xl:max-w-[1190px] px-3">
           <div className="flex flex-row flex-wrap items-center sm:justify-between justify-center">
             <div className="sm:w-5/12 w-full max-sm:flex flex-col max-sm:justify-center max-sm:items-center">
