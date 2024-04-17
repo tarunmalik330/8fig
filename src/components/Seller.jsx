@@ -21,7 +21,7 @@ const Seller = () => {
                 <img
                   src={sellerimg}
                   alt="sellerimg"
-                  className="w-full sm:max-w-[440px] lg:rounded-md sm:rounded-3sm rounded-4xs hover:scale-[1.02] transition-all ease-linear duration-500
+                  className="w-full sm:max-w-[440px] lg:rounded-md sm:rounded-3sm rounded-4xs hover:scale-[1.02] transition-all ease-linear duration-300
               "
                 />
               </div>
