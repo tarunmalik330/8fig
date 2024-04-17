@@ -231,7 +231,7 @@ export const InstagramSvg = () => {
 export const LinkedInSvg = () => {
   return (
     <svg
-      className="hover:scale-110 transition-all ease-linear duration-300 sm:w-[32px] w-[29px] sm:h-[20px] h-[27px]"
+      className="hover:scale-110 transition-all ease-linear duration-300 sm:w-[32px] w-[29px] sm:h-[29px] h-[27px]"
       viewBox="0 0 32 30"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
