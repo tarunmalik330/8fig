@@ -3,7 +3,7 @@ import { footerlink } from "./common/Mapdata";
 
 const Footer = () => {
   return (
-    <div className="bg-bgblack sm:pt-[53px] sm:pb-[63.34px] py-[40px]">
+    <div className="bg-bgblack sm:pt-[53px] sm:pb-[63.34px] py-10">
       <div className="container mx-auto xl:max-w-[1359px] px-3">
         <div className="flex flex-row items-center flex-wrap justify-between">
           <div className="lg:w-3/12 w-full">
