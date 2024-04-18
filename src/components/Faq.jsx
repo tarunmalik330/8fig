@@ -12,7 +12,7 @@ const Faq = () => {
     <>
       <div className="bg-bggrey sm:pt-[70px] sm:pb-[60px] py-[40px]">
         <div className="container mx-auto xl:max-w-[1264px] px-3">
-          <p className="text-lightgrey text-sm font-medium tracking-spacing text-center uppercase leading-leadingxl mb-[20px]">
+          <p className="text-lightgrey text-sm font-medium tracking-spacing text-center uppercase leading-leadingxl sm:mb-[20px] mb-4">
             still have questions?
           </p>
           <h2 className="ff_abril text-lightblack font-semibold lg:text-textlg text-textsm text-center lg:max-w-[438px] leading-leadinglg mx-auto md:mb-6 sm:mb-4 mb-0">
