@@ -3,9 +3,9 @@ import { carddata } from "./common/Mapdata";
 const Eligible = () => {
   return (
     <>
-      <div className="bg-white sm:py-[60px] py-[40px]">
+      <div className="sm:py-[60px] py-[40px]">
         <div className="container mx-auto xl:max-w-[1253px] px-3">
-          <p className="uppercase font-medium text-sm text-lightgrey leading-leadingxl text-center ">
+          <p className="uppercase font-medium text-sm text-grey leading-leadingxl text-center">
             make the cut
           </p>
           <h2 className="ff_abril text-lightblack font-semibold lg:text-textlg text-textsm text-center lg:max-w-[438px] leading-leadinglg mx-auto sm:my-[20px] py-[16px]">
