@@ -3,7 +3,7 @@ import { footerlink } from "./common/Mapdata";
 
 const Footer = () => {
   return (
-    <div className="bg-lightblack sm:pt-[53px] sm:pb-[63.34px] py-[40px]">
+    <div className="bg-bgblack sm:pt-[53px] sm:pb-[63.34px] py-[40px]">
       <div className="container mx-auto xl:max-w-[1359px] px-3">
         <div className="flex flex-row items-center flex-wrap justify-between">
           <div className="lg:w-3/12 w-full">
@@ -29,10 +29,10 @@ const Footer = () => {
                 </p>
               </div>
               <div className="lg:w-3/12 w-full flex gap-[36px] items-baseline lg:justify-end sm:pt-8 pt-4 lg:pt-0">
-                {footerlink.map((a, index) => {
+                {footerlink.map((icon, index) => {
                   return (
                     <div key={index}>
-                      <a href={a.link}>{a.footersvg}</a>
+                      <a href={icon.link}>{icon.footersvg}</a>
                     </div>
                   );
                 })}

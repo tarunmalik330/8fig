@@ -10,7 +10,7 @@ const Faq = () => {
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
   return (
     <>
-      <div className="bg-bggrey sm:pt-[70px] sm:pb-[60px] py-[40px]">
+      <div className="bg-bgfaq sm:pt-[70px] sm:pb-[60px] py-[40px]">
         <div className="container mx-auto xl:max-w-[1264px] px-3">
           <p className="text-grey text-sm font-medium tracking-spacing text-center uppercase leading-leadingxl sm:mb-[20px] mb-4">
             still have questions?
