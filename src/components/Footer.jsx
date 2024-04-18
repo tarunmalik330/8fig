@@ -17,8 +17,7 @@ const Footer = () => {
               </a>
               <p className="text-grey text-sm font-medium tracking-spacing">
                 {" "}
-                <span className="lg:block">8fig, 1717 W 6th St,</span> Austin,
-                Texas
+                8fig, 1717 W 6th St, Austin, Texas
               </p>
             </div>
           </div>
@@ -30,9 +29,9 @@ const Footer = () => {
                 </p>
               </div>
               <div className="lg:w-3/12 w-full flex gap-[36px] items-baseline lg:justify-end sm:pt-8 pt-4 lg:pt-0">
-                {footerlink.map((a, link) => {
+                {footerlink.map((a, index) => {
                   return (
-                    <div key={link}>
+                    <div key={index}>
                       <a href={a.link}>{a.footersvg}</a>
                     </div>
                   );
