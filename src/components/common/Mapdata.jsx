@@ -46,17 +46,21 @@ export const footerlink = [
   {
     link: "https://www.facebook.com/",
     footersvg: <FacebookSvg />,
+    label: "facebook",
   },
   {
     link: "https://www.instagram.com/",
     footersvg: <InstagramSvg />,
+    label: "instagram",
   },
   {
     link: "https://in.linkedin.com/",
     footersvg: <LinkedInSvg />,
+    label: "linkedin",
   },
   {
     link: "https://twitter.com/",
     footersvg: <TwitterSvg />,
+    label: "twitter",
   },
 ];

@@ -32,7 +32,9 @@ const Footer = () => {
                 {footerlink.map((icon, index) => {
                   return (
                     <div key={index}>
-                      <a href={icon.link}>{icon.footersvg}</a>
+                      <a href={icon.link} aria-label={icon.label}>
+                        {icon.footersvg}
+                      </a>
                     </div>
                   );
                 })}
