@@ -1,4 +1,3 @@
-
 import businessimg from "../assets/images/webp/businessimg.webp";
 import trustpilot from "../assets/images/webp/trustpilotimg.webp";
 
@@ -12,7 +11,7 @@ const Growth = () => {
               <img
                 src={businessimg}
                 alt="businessimg"
-                className="w-full max-w-[83.5px] mb-[10px]"
+                className="w-full max-w-[83.5px] h-[31.73px] mb-[10px]"
               />
               <p className="capitalize font-semibold text-white ff_abril lg:text-textxxl md:text-textxl sm:text-textlg text-textmd  leading-leadingsm">
                 ‘A’ Rating{" "}
@@ -30,7 +29,7 @@ const Growth = () => {
               <img
                 src={trustpilot}
                 alt="trustpilot"
-                className="w-full max-w-[140px] mb-[10px]"
+                className="w-full max-w-[140px] h-[34px] mb-[10px]"
               />
               <p className="capitalize font-semibold text-white ff_abril lg:text-textxxl md:text-textxl sm:text-textlg text-textmd  leading-leadingsm">
                 Excellent
